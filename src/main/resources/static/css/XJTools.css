@@ -1,0 +1,83 @@
+/*按钮样式*/
+.bottom-but {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: ghostwhite;
+}
+
+.bottom-but span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.bottom-but:hover span {
+    color: black;
+}
+
+.bottom-but::before,
+.bottom-but::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.bottom-but::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.bottom-but:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+/*输入框样式*/
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+    -13px -13px 100px #ffffff;
+}
+/*自定义表格样式*/
+.table0{
+    font-family: "华文楷体", serif;
+    font-size: 20px;
+    border: 1px;
+    width: 90%;
+    text-align: center;
+}
+.table0 th{
+    background-color: #45a049;
+    width: auto;
+}
+.table0 td{
+    background-color: white;
+}

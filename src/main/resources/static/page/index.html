@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主界面</title>
+    <style>@import url("../css/XJTools.css");</style>
+    <style>@import url("../css/bootstrap.min.css");</style>
+    <style>@import url("../css/loading.css");</style>
+    <style>@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css");</style>
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jsTools.js"></script>
+    <script src="../js/index.js"></script>
+    <!--提前预加载其余页面js-->
+<!--    <script src="../js/firstPage.js"></script>-->
+<!--    <script src="../js/publish.js"></script>-->
+<!--    <script src="../js/index-showUser.js"></script>-->
+</head>
+<body>
+    <nav id="nav0" class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">XJMAKE</a>
+       
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="bi bi-house-door-fill firstPage">首页</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index-showUser.html"><span class="bi bi-person"></span>用户</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span id="onlineUser" class="bi bi-person-lines-fill">查看用户</span></a>
+            </li> 
+          </ul>
+        </div> 
+    </nav>
+    <div id="context">
+
+    </div>
+    <div id="div0" class="container-fluid bg-dark m-auto fixed-bottom mt-5">
+        <div class="row">
+          <div class="col">
+              <button class="bottom-but firstPage"> <span>首页</span></button>
+          </div>
+          <div class="col">
+              <button class="bottom-but" id="publish"> <span>发布</span></button>
+          </div>
+<!--            <div class="col-sm-1 col-md-3 col-lg-3">-->
+<!--                <button class="bottom-but" id="onlineUser"> <span>在线人数</span></button>-->
+<!--            </div>-->
+          <div class="col">
+              <button class="bottom-but"> <span>我的</span></button>
+          </div>
+        </div>
+    </div>
+<!--    &lt;!&ndash;页面加载效果&ndash;&gt;-->
+<!--    <div class="loading" id="loading">-->
+<!--        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">-->
+<!--            <div class="wheel"></div>-->
+<!--            <div class="hamster">-->
+<!--                <div class="hamster__body">-->
+<!--                    <div class="hamster__head">-->
+<!--                        <div class="hamster__ear"></div>-->
+<!--                        <div class="hamster__eye"></div>-->
+<!--                        <div class="hamster__nose"></div>-->
+<!--                    </div>-->
+<!--                    <div class="hamster__limb hamster__limb&#45;&#45;fr"></div>-->
+<!--                    <div class="hamster__limb hamster__limb&#45;&#45;fl"></div>-->
+<!--                    <div class="hamster__limb hamster__limb&#45;&#45;br"></div>-->
+<!--                    <div class="hamster__limb hamster__limb&#45;&#45;bl"></div>-->
+<!--                    <div class="hamster__tail"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="spoke"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+body {
+    /* background: #cccccc; */
+    /*background: url(../images/背景图1.jpg) 5px 5px;*/
+    background-color: #355744;
+}
+
+.container {
+    /* display:flex; */
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    color:#355744;
+    padding: 15px;
+    margin: 50px auto 0;
+    width: 700px;
+    height: 890px;
+    text-align: center;
+    font-family: "微软雅黑 Light", serif;
+    box-shadow: 10px 10px 15px black;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+h1{
+    position: relative;
+    left: 5%;
+    top: 1%;
+    font-size: 50px;
+}
+hr {
+    position: relative;
+    /* left: 10%; */
+    width: 90%;
+    border: #355744 1px solid;
+    margin-bottom: 15px;
+}
+
+/* 表单 */
+#form1 div {
+    /* border: #00c8D0 solid 1px; */
+    position: relative;
+    margin-right: 40px;
+    margin-left: 20px;
+    width: 490px;
+    top: 4%;
+    transform: translateX(30%);
+    text-align: left;
+    /* margin-right: 0; */
+    /* z-index: 0; */
+    /* border: 1px solid red; */
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+/* 输入框格式 */
+input[type=text],
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 10px;
+    /* -webkit-transition: 0.5s; */
+    /* 宽度动态增加 */
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+/* 点击输入框后 */
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: lightblue;
+    width: 25%;
+}
+
+input[type=radio] {
+    margin: 8px 0;
+}
+
+#select_province {
+    margin: 8px 0;
+}
+
+/* 按钮设计 */
+input[type=button] {
+    /* position: absolute; */
+    position: relative;
+    width: 120px;
+    height: 40px;
+    /* top: 20%; */
+    background: #355744;
+    border: 0;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    font-family: "微软雅黑 Light", serif;
+    font-weight: bold;
+}
+
+input[type=button]:hover {
+    background: #00c8D0;
+}
+.file0{
+    width: 100px;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    left: 20%;
+    background-color: #355744;
+    /* background-color: rebeccapurple; */
+    color: white;
+    margin-right: 50%;
+    /* border: rebeccapurple 1px solid; */
+    border: none;
+    border-radius: 10px;
+}
+/* 提示信息样式 */
+span {
+    color: #355744;
+    font-size: 5px;
+}
+/* 验证码区域 */
+.code_div{
+    /* border: #00c8D0 1px solid; */
+    position: relative;
+    /* width: 400px; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+.code {
+    /* display: inline; */
+    position: relative;
+    left: 30%;
+    font-family: Arial, serif;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 30px;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    /* float: left; */
+    /*margin: auto auto auto 40%;*/
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #355744;
+}

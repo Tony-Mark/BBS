@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回复用户</title>
+    <style>@import url("../css/bootstrap.min.css");</style>
+    <style>@import url("../css/XJTools.css");</style>
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jsTools.js"></script>
+    <script src="../js/replyUser.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input class="input" type="hidden" id="tzid" name="tzid">
+            <input class="input" type="hidden" name="replyUser" id="replyUser">
+            <div id="content-area" class="form-floating mt-3 mb-3">
+                <input type="text" class="form-control input w-50" id="content" placeholder="请友善评论" name="content">
+            </div>
+            <button type="button" id="reply" class="btn btn-primary">回复</button>
+        </form>
+    </div>
+</body>
+</html>
